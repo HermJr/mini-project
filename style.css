@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
 
 * {
-   margin: 0;
+   border: 0;
    padding: 0;
    box-sizing: border-box
+   font-family "Manrope",sans-serif;
+   font-weight: 500;
 } 
 
 body {
-  background-color: #edf1f1;
-  color: #1a234d;
+    background-color: #edf1f1;
+    color: #1a234d;
 }
 
 a {
@@ -21,14 +22,13 @@ a {
 }
 
 ul {
-    display: flex;
+    display: flex; 
 }
 
 li {
      list-style-type: none;
      padding-left: 16px
-} 
-
+}
 
 h1 {
   font-size: 60px;
@@ -41,7 +41,6 @@ NAV
 */
 
 nav {
- 
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -66,15 +65,11 @@ nav {
   font-weight 200;
 }
 
-
 /*
-
 
 HEADER
 
-
 */
-
 
 header {
      width: 100%;  
@@ -88,5 +83,64 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    padding-right: 8px;
 }
+
+.row__course {
+    border-left: 1px dashed #cdb5e1;
+}
+
+.course {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-left: 40px;
+    gap: 20px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.course__icon {
+    font-size: 80px;
+}
+
+.course__text {
+    padding: 20px
+}
+
+.course__selection {
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  color:#727892
+  letter-spacing 0.1px;
+}
+
+.course__title {
+    font-weight: 600;
+    font-size: 44px;
+    margin-left: 32px;
+    letter-spacing: 2px;
+}
+
+.hero {
+border: 1.5px solid #cbd5e1;
+border-right: 20 solid #badcee;
+border-radius: 0 16px 16px 0; 
+padding: 40px;
+box-shadow: 4px 4px 10px rgb(0,0,0,0.1);
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+margin-bottom: 30px;
+align-items: center;
+justify-content: center;
+background-color: #fefefe;
+}
+
+.hero__img--wrapper {
+    max-width: 540px;
+}
+
+
+
+
