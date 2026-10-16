@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap');
 
 * {
-   border: 0;
    padding: 0;
+   margin: 0;
    box-sizing: border-box
-   font-family "Manrope",sans-serif;
-   font-weight: 500;
+   font-family "Manrope", sans-serif;
+   font-weight:500;
 } 
 
 body {
@@ -32,6 +32,10 @@ li {
 
 h1 {
   font-size: 60px;
+}
+
+img {
+    width: 100%;
 }
 
 /*
@@ -105,11 +109,11 @@ header {
 }
 
 .course__text {
-    padding: 20px
+    padding: 20px;
 }
 
 .course__selection {
-  font-family: "Manrope", sans-serif;
+  font-family: "Space Mono", monospace;
   font-weight: bold;
   color:#727892
   letter-spacing 0.1px;
@@ -123,24 +127,50 @@ header {
 }
 
 .hero {
-border: 1.5px solid #cbd5e1;
-border-right: 20 solid #badcee;
-border-radius: 0 16px 16px 0; 
-padding: 40px;
-box-shadow: 4px 4px 10px rgb(0,0,0,0.1);
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-margin-bottom: 30px;
-align-items: center;
-justify-content: center;
-background-color: #fefefe;
+   border: 1.5px solid #cbd5e1;
+   border-right: 20 solid #badcee
+   border-radius 0 16px 16px 0; 
+   padding: 40px;
+   box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #fefefe;
 }
 
 .hero__img--wrapper {
     max-width: 540px;
 }
 
+.hero__description {
+    margin-left: 60px;
+}
+
+.subheader {
+    font-size: 20px;
+    margin: 16px 0 24px 0;
+    font-weight: 400;
+    color: #64748b;
+}
+
+buttom {
+    background-color: #cbd5e1
+    width 95;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Space Mono", monospace;
+    margin: 0 auto;
 
 
+
+
+}
 
