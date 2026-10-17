@@ -3,8 +3,9 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box
-  font-family "Manrope",sans-serif;
+  box-sizing:
+    border-box font-family "Manrope",
+    sans-serif;
   font-weight: 500;
 }
 
@@ -65,11 +66,11 @@ nav {
 }
 
 .logo__text {
-  font-size: 20px; 
+  font-size: 20px;
   font-weight: 200;
 }
 
-b  {
+b {
   font-weight: 700;
 }
 
@@ -119,8 +120,7 @@ header {
 .course__selection {
   font-family: "Space Mono", monospace;
   font-weight: bold;
-  color: #727892 
-  letter-spacing 0.1px;
+  color: #727892 letter-spacing 0.1px;
 }
 
 .course__title {
@@ -132,7 +132,7 @@ header {
 
 .hero {
   border: 1.5px solid #cbd5e1;
-  border-right: 20px solid #badcee; 
+  border-right: 20px solid #badcee;
   border-radius: 0 16px 16px 0;
   padding: 40px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
@@ -181,9 +181,9 @@ SOCIAL
 
 */
 
-#about, 
-#social, 
-#contact, 
+#about,
+#social,
+#contact,
 footer {
   padding: 24px;
   width: 100%;
@@ -192,13 +192,13 @@ footer {
 }
 
 .section__card {
-  border: 1.5px dashed #cdb5e1
-  padding 40px 20px;
+  border: 1.5px dashed #cdb5e1;
+  padding: 40px 20px;
   width: 100%;
   max-width: 1200px;
   display: flex;
-  flex-direction: column
-  align-item center;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   border-radius: 0 16px 16px 0;
 }
@@ -209,7 +209,7 @@ footer {
 }
 
 .section__card--social {
-  border-radius: 0 16px 16px 0;
+  border-radius: 0 16px 0;
   background-color: #badcee;
   border-right: 20px solid #ef4810;
 }
@@ -220,31 +220,32 @@ footer {
   align-items: center;
 }
 
-.about__row, .social__row {
+.about__row,
+.social__row {
   justify-content: start;
 }
 
 .section__title {
   margin-bottom: 16px;
   font-family: "Space Mono", monospace;
-  letter-spacing: 12px;
+  letter-spacing: 8px;
 }
 
-.section__img--wrapper {
+.section__leg--wrapper {
   width: 60%;
   padding: 0 24px;
 }
- 
-.selection__description--wrapper {
+
+.section__description--wrapper {
   width: 70%;
   padding: 0 24px;
 }
 
-.selection__description--para {
+.hero__description--para {
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 1.5px;
   margin-bottom: 24px;
-}  
+}
 
 /*
 
@@ -258,6 +259,21 @@ CONTACT
   border-radius: 16px;
 }
 
+#contact .row {
+  display: flex;
+  justify-self: center;
+}  
+
+#contact .section__card {
+  margin: 0 auto;
+  box-shadow: 12px 0 20px rgba(255, 165, 0, 0.3);
+} 
+
+
+
+  
+
+
 form {
   width: 100%;
   max-width: 900px;
@@ -268,8 +284,8 @@ form {
   gap: 12px;
 }
 
-
-input, textarea {
+input,
+textarea {
   margin-bottom: 24px;
   font-size: 20px;
   padding: 6px 12px;
