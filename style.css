@@ -3,9 +3,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing:
-    border-box font-family "Manrope",
-    sans-serif;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
 }
 
@@ -68,10 +67,6 @@ nav {
 .logo__text {
   font-size: 20px;
   font-weight: 200;
-}
-
-b {
-  font-weight: 700;
 }
 
 /*
@@ -182,10 +177,8 @@ SOCIAL
 */
 
 #about,
-#social,
-#contact,
-footer {
-  padding: 24px;
+#social {
+  padding: 24px 0;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -209,7 +202,6 @@ footer {
 }
 
 .section__card--social {
-  border-radius: 0 16px 0;
   background-color: #badcee;
   border-right: 20px solid #ef4810;
 }
@@ -220,8 +212,7 @@ footer {
   align-items: center;
 }
 
-.about__row,
-.social__row {
+.about__row, .social__row {
   justify-content: start;
 }
 
@@ -231,7 +222,7 @@ footer {
   letter-spacing: 8px;
 }
 
-.section__leg--wrapper {
+.section__img--wrapper {
   width: 60%;
   padding: 0 24px;
 }
@@ -241,7 +232,7 @@ footer {
   padding: 0 24px;
 }
 
-.hero__description--para {
+.section__description--para {
   font-size: 24px;
   line-height: 1.5px;
   margin-bottom: 24px;
@@ -262,17 +253,12 @@ CONTACT
 #contact .row {
   display: flex;
   justify-self: center;
-}  
+}
 
 #contact .section__card {
   margin: 0 auto;
   box-shadow: 12px 0 20px rgba(255, 165, 0, 0.3);
-} 
-
-
-
-  
-
+}
 
 form {
   width: 100%;
