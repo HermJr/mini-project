@@ -177,7 +177,9 @@ SOCIAL
 */
 
 #about,
-#social {
+#social,
+#contact,
+footer {
   padding: 24px 0;
   width: 100%;
   max-width: 1200px;
@@ -212,7 +214,8 @@ SOCIAL
   align-items: center;
 }
 
-.about__row, .social__row {
+.about__row,
+.social__row {
   justify-content: start;
 }
 
@@ -234,7 +237,7 @@ SOCIAL
 
 .section__description--para {
   font-size: 24px;
-  line-height: 1.5px;
+  line-height: 1.5;
   margin-bottom: 24px;
 }
 
@@ -311,4 +314,57 @@ footer {
 
 RESPONSINESS
 
-git push*/
+*/
+
+/*
+
+SMALLER SCREEN
+
+*/
+
+@media (max-width: 1024px) {
+    .section__description--para {
+       font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    a {
+        font-size: 16px;
+    }   
+    .course {
+        gap: 4px;
+    }
+    .course__title {
+        margin-left: 0;
+        font-size: 40px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero__img--wrapper {
+        max-width: 500px;
+    }
+
+    .hero__description  {
+        margin-left: 0;
+    }
+    
+    hi {
+        font-size: 40px;
+    }
+  
+    .section__description {
+        flex-direction: column;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 400px;
+    } 
+  }
+  
